@@ -18,13 +18,13 @@ function driversByRevenue(drivers){
 }
 
 function driversByName(drivers){
-
-}
-
-function totalRevenue(){
   return drivers.slice().sort(function(a,b){
     return a.localeCompare(b)
   })
+}
+
+function totalRevenue(){
+  
 }
 
 function averageRevenue(){
