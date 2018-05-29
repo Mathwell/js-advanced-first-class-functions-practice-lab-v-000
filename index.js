@@ -27,10 +27,10 @@ function totalRevenue(drivers){
   let total=0;
   drivers.forEach(function(driver){
     total+=driver.revenue
-  }) 
+  })
   return total
 }
 
-function averageRevenue(){
-
+function averageRevenue(drivers){
+  return totalRevenue(drivers)/drivers.length
 }
