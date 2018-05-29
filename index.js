@@ -13,7 +13,7 @@ function logDriversByHometown(drivers,hometown){
 
 function driversByRevenue(drivers){
  drivers.sort(function(a,b){
-   a.revenue-b.revenue
+   b.revenue-a.revenue
  })
 }
 
