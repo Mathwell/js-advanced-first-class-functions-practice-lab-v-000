@@ -23,7 +23,7 @@ function driversByName(drivers){
 
 function totalRevenue(){
   return drivers.slice().sort(function(a,b){
-    return a.name-b.name
+    return a.localeCompare(b)
   })
 }
 
