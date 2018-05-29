@@ -17,12 +17,14 @@ function driversByRevenue(drivers){
  })
 }
 
-function driversByName(){
+function driversByName(drivers){
 
 }
 
 function totalRevenue(){
-
+  return drivers.slice().sort(function(a,b){
+    return a.name-b.name
+  })
 }
 
 function averageRevenue(){
